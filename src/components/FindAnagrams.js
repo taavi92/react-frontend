@@ -17,7 +17,7 @@ const Findanagrams = () => {
         const givenWord = {word};
         console.log(givenWord);
 
-        fetch('http://localhost:8000/api/find', {
+        fetch('https://anagrammm-backend.herokuapp.com/api/find', {
             method: 'POST',
             headers: { "Accept": "application/json" ,
                 "Content-Type": "application/json" },

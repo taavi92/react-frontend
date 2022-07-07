@@ -15,7 +15,7 @@ const AddWords = () => {
         const enteredLink = { dataBaseLink};
 
 
-        fetch('http://localhost:8000/api/add', {
+        fetch('https://anagrammm-backend.herokuapp.com/api/add', {
             method: 'POST',
             headers: { "Accept": "application/json" ,
                 "Content-Type": "application/json" },

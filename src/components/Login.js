@@ -18,7 +18,7 @@ const Login = () => {
         const blog = { username, password };
 
 
-        fetch('http://localhost:8000/api/login', {
+        fetch('https://anagrammm-backend.herokuapp.com/api/login', {
             method: 'POST',
             headers: { "Accept": "application/json" ,
                 "Content-Type": "application/json" },
