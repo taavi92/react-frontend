@@ -13,7 +13,7 @@ function Header()
 
 
                     <Nav className="me-auto">
-                        <Link to="/login">Login</Link>
+                        {/*<Link to="/login">Login</Link>*/}
 
                         <Link to="/add"> Add database</Link>
                         <Link to="/find">Find Anagrams</Link>
